@@ -1,0 +1,35 @@
+{
+  "name": "hapi-ness",
+  "version": "1.0.0",
+  "description": "Getting started with the hapi.js framework so that I could get familiar.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherwino/hapi.git"
+  },
+  "keywords": [
+    "hapi",
+    "node",
+    "javascript"
+  ],
+  "author": "sherwinio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sherwino/hapi/issues"
+  },
+  "homepage": "https://github.com/sherwino/hapi#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "elasticsearch": "^14.1.0",
+    "get-json": "^1.0.0",
+    "handlebars": "^4.0.11",
+    "handlebars-helper-repeat": "^1.0.0",
+    "hapi": "^17.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
