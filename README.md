@@ -33,15 +33,15 @@ This single page React application with; home page, user profile page, car profi
 
 ## Technologies Used
 
-These are some of the technologies that I have been able to integrate into this project. For more details about these technologies go [here](docs/TECHUSED.md).
+These are some of the technologies that I have been able to integrate into this project. For more details about these technologies go [here](./docs/TECHUSED.md).
 
 ## Technologies To Be Used
 
-I would like to try to implement the use of [these](docs/TRYTHESE.md) technologies listed here, but I haven't been able to get there yet.
+I would like to try to implement the use of [these](./docs/TRYTHESE.md) technologies listed here, but I haven't been able to get there yet.
 
 ## User Stories
 
-To go into detail about the two user case scenarios that I would like to use going to make a different .md file for this [here](docs/USERSTORY).
+To go into detail about the two user case scenarios that I would like to use going to make a different .md file for this [here](./docs/USERSTORY.md).
 
 
 ### Resources
