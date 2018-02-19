@@ -12,7 +12,7 @@ This is where things get a little bit hairy because not certain what I want to d
 
 ## More on the App
 
-This single page React application with; home page, user profile page, car profile page ,and useful user stats section in the about page of the site. Going to create two [User Stories](#user-stories) or narratives for the site to predict how users would use the site.
+This single page React application with; home page, user profile page, car profile page, and useful user stats section in the about page of the site. Going to create two [User Stories](#user-stories) or some kind of narratives for the site to predict how users would use the site.
 
 ## Going to use the following technologies:
 
