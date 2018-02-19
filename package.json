@@ -4,7 +4,12 @@
   "description": "Getting started with the hapi.js framework so that I could get familiar.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "cd client && npm run start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm run test --env=jsdom",
+    "eject": "cd client && npm run eject"
   },
   "repository": {
     "type": "git",
@@ -15,7 +20,7 @@
     "node",
     "javascript"
   ],
-  "author": "sherwinio",
+  "author": "sherwino",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sherwino/hapi/issues"
@@ -23,13 +28,15 @@
   "homepage": "https://github.com/sherwino/hapi#readme",
   "dependencies": {
     "dotenv": "^5.0.0",
-    "elasticsearch": "^14.1.0",
     "get-json": "^1.0.0",
     "handlebars": "^4.0.11",
     "handlebars-helper-repeat": "^1.0.0",
-    "hapi": "^17.2.0"
+    "hapi": "^17.2.0",
+    "inert": "^5.1.0"
   },
   "devDependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.15.0"
   }
 }
